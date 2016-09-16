@@ -27,4 +27,14 @@ def power(a,b)
 	a**b	
 end
 
-
+def factorial(n)
+factorial = 1
+if n == 0
+	return factorial
+end
+while n > 0
+	factorial *= n
+	n -= 1
+end
+factorial
+end
